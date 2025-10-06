@@ -17,3 +17,18 @@ a:active{
     color:orange;
     background-color: blue;
 }
+
+a[href="index.html"] {
+  color: orange;
+  background-color: yellow;
+}
+
+a[href="tareas.html"] {
+  color: blue;
+  background-color: darkorange;
+}
+
+a[href="selectores.html"] {
+  color: greenyellow;
+  background-color: purple;
+}

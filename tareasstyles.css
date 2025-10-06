@@ -21,3 +21,18 @@ li.hecha::after{
     content: "\\/";
     font-weight: bold;
 }
+
+a[href="index.html"] {
+  color: orange;
+  background-color: yellow;
+}
+
+a[href="selectores.html"] {
+  color: greenyellow;
+  background-color: purple;
+}
+
+a[href="favoritos.html"] {
+  color: white;
+  background-color: steelblue;
+}
