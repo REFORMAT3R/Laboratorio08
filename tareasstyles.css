@@ -1,0 +1,23 @@
+li:nth-child(odd){
+    background-color: gray;
+}
+
+li:nth-child(even){
+    background-color: aquamarine;
+}
+
+li::before{
+    content: "-->";
+    font-weight: bold;
+    color:blueviolet;
+}
+
+li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+li.hecha::after{
+    content: "\\/";
+    font-weight: bold;
+}
